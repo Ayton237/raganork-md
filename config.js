@@ -41,7 +41,7 @@ const sequelize =
         logging: DEBUG,
       });
 
-const SESSION_STRING = process.env.SESSION || process.env.SESSION_ID;
+const SESSION_STRING = process.env.SESSION || process.env.SESSION_ID; RGNK~UneKvMTX
 
 const SESSION = SESSION_STRING
   ? SESSION_STRING.split(",").map((s) => s.split("~")[1].trim())
